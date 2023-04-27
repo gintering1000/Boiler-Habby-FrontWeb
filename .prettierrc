@@ -1,0 +1,21 @@
+{
+  "useTabs": false,
+  "tabWidth": 2,
+  "printWidth": 10000,
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+  "overrides": [
+    {
+      "files": ["**/*.json", "**/*.jsonc", "**/*.json5", "**/.*rc"],
+      "options": {
+        "parser": "json5",
+        "quoteProps": "preserve",
+        "singleQuote": false,
+        "trailingComma": "none"
+      }
+    }
+  ]
+}
